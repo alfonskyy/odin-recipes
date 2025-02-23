@@ -1,1 +1,2 @@
 # odin-recipes
+Hi, my name is Alfonso, and this is one of the projects I will be working on during my journey with The Odin Project. This project is a simple cooking recipes website where I will be developing my HTML and coding skills. Enjoy!

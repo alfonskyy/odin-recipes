@@ -1,0 +1,23 @@
+h1 {
+    color: black;
+    font-family: 'Copperplate','Georgia',sans-serif;
+    text-align: center;
+
+}
+
+ul {
+    color: white;
+    background-color: rgb(117, 117, 117);
+    text-align: center;    
+}
+
+a {
+    color: white;
+}
+
+img {
+    display: block;
+    margin: auto;
+    height: 400px;
+    width: 400px;
+}

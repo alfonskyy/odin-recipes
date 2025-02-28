@@ -1,18 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     color: black;
     font-family: 'Copperplate','Georgia',sans-serif;
     text-align: center;
+    background-color: rgb(168, 66, 66);
+    padding: 20px;
+    border-bottom-style: groove;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
 
-}
-
-ul {
-    color: white;
-    background-color: rgb(117, 117, 117);
-    text-align: center;    
 }
 
 a {
-    color: white;
+    color: rgba(255, 255, 255, 0.733);
+    font-weight: bold;
+    
+}
+
+.botones {
+    justify-content: space-between;
+    text-align: center;
+    display: flex
+    
+
+}
+
+.botones button:hover {
+    background-color: rgb(100, 31, 31);
+}
+
+button {
+    background-color: rgb(170, 86, 86);
+    border-style: outset;
+    border-color: black;
+    border-width: 4px;
+
 }
 
 img {
@@ -20,4 +45,59 @@ img {
     margin: auto;
     height: 400px;
     width: 400px;
+    border-color: rgb(168, 66, 66);
+    border-width: 10px;
+    border-style: solid;
 }
+
+#botonmole {
+    
+margin-left: 160px;
+margin-top: 30px;
+
+}
+
+
+#botonsandwich {
+    
+margin-right: 160px;
+margin-top: 30px;
+        }
+    
+
+#botontacos {
+    margin-top: 30px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.fotoscomida {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+
+#imagenenchiladas {
+margin-right: auto;
+margin-top: 30px;
+
+
+}
+
+#imagensandwich {
+margin-left: auto;
+margin-top: 30px;
+
+}
+
+#imagentacos {
+    margin-top: 30px;
+
+    
+
+}
+
